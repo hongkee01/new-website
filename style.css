@@ -27,7 +27,6 @@ body {
     margin-right: auto;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
-    border: 1px solid black;
 }
 .right-side> a:hover{
     border-bottom: 1px solid black;
@@ -57,10 +56,9 @@ a{
     display: flex;
     margin-top: 60px;
     height: 650px;
+    background-color: white;
 }
-.subpage1 div {
-    border: 1px solid black
-}
+
 
 .intro {
     width: 52%;
@@ -85,9 +83,7 @@ h4 {
     color: white;
     width: auto;
 }
-.subpage2 div{
-    border: 1px solid black
-}
+
 .newseries {
     text-align: right;
     margin-right: 20px;
@@ -111,9 +107,7 @@ header {
     padding-top: 80px;
     width: auto;
 }
-#subpage3 div{
-    border: 1px solid black;
-}
+
 
 .aboutteam {
     text-align: center;
