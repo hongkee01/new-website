@@ -27,6 +27,7 @@ body {
     margin-right: auto;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
+    border: 1px solid black;
 }
 .right-side> a:hover{
     border-bottom: 1px solid black;
@@ -34,7 +35,7 @@ body {
 
 .right-side a{
     color: #8a8a8a;
-    margin-right: 75px;
+    margin-right: 70px;
 }
 .right-side a:hover{
     color: black;
@@ -56,8 +57,9 @@ a{
     display: flex;
     margin-top: 60px;
     height: 650px;
-    width: auto;
-    
+}
+.subpage1 div {
+    border: 1px solid black
 }
 
 .intro {
@@ -72,6 +74,7 @@ h4 {
 .picofstand {
     width: 48%;
     text-align: left;
+
 }
 
 .subpage2 {
@@ -82,13 +85,18 @@ h4 {
     color: white;
     width: auto;
 }
+.subpage2 div{
+    border: 1px solid black
+}
 .newseries {
     text-align: right;
     margin-right: 20px;
     margin-top: 50px;
-    width: 45%
+    width: 45%;
 }
-
+img {
+    max-width: 100%;
+}
 .latest {
     width: 36%;
     text-align: center;
@@ -102,6 +110,9 @@ header {
     height: 800px;
     padding-top: 80px;
     width: auto;
+}
+#subpage3 div{
+    border: 1px solid black;
 }
 
 .aboutteam {
