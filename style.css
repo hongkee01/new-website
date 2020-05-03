@@ -20,6 +20,7 @@ body {
     position: -ms-sticky;
     top: 0;
     background-color: white;
+    width: auto;
 }
 
 .right-side>a {
@@ -55,6 +56,7 @@ a{
     display: flex;
     margin-top: 60px;
     height: 650px;
+    width: auto;
     
 }
 
@@ -78,6 +80,7 @@ h4 {
     padding-top: 75px;
     background-color: #8a8a8a;
     color: white;
+    width: auto;
 }
 .newseries {
     text-align: right;
@@ -98,6 +101,7 @@ header {
     display: flex;
     height: 800px;
     padding-top: 80px;
+    width: auto;
 }
 
 .aboutteam {
