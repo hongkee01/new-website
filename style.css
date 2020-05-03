@@ -1,5 +1,7 @@
 body {
     margin: 0px;
+    flex-wrap: nowrap;
+    font-family: 'sans-serif' ;
 }
 
 .container {
@@ -12,10 +14,16 @@ body {
     padding: 30px;
     font-size: 20px;
     height: 60px;
+    position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    top: 0;
+    background-color: white;
 }
 
 .right-side>a {
-    margin-right: 20px;
+    margin-right: auto;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
@@ -47,6 +55,7 @@ a{
     display: flex;
     margin-top: 60px;
     height: 650px;
+    
 }
 
 .intro {
@@ -64,8 +73,11 @@ h4 {
 }
 
 .subpage2 {
-    height: 760px;
+    height: 730px;
     display: flex;
+    padding-top: 75px;
+    background-color: #8a8a8a;
+    color: white;
 }
 .newseries {
     text-align: right;
@@ -85,17 +97,21 @@ header {
 #subpage3{
     display: flex;
     height: 800px;
+    padding-top: 80px;
 }
 
 .aboutteam {
-    text-align: right;
+    text-align: center;
     margin-right: 30px;
     width: 55%;
+    margin-left: 220px;
+    margin-top: 50px;
 }
 
 .picofpeople {
-    text-align: center;
+    text-align: left;
     width: 45%;
+    margin-top: 50px;
 }
 
 #footer{
