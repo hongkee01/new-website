@@ -34,7 +34,7 @@ body {
 
 .right-side a{
     color: #8a8a8a;
-    margin-right: 70px;
+    margin-right: auto;
 }
 .right-side a:hover{
     color: black;
@@ -44,7 +44,7 @@ body {
     color: black;
     font-weight: bold;
     font-size: 35px;
-    margin-left: 80px;
+    margin-left: auto;
 }
 
 a{
